@@ -1,0 +1,50 @@
+body {
+  background-color: #111;
+  font-family: "Courier New", monospace;
+  color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#app {
+  width: 800px;
+  height: 420px;
+  background-color: #1e1e1e;
+  border: 4px solid #555;
+  padding: 12px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+#portrait {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#character-image {
+  width: 96px;
+  height: 96px;
+  image-rendering: pixelated;
+  border: 3px solid #777;
+  background-color: #000;
+}
+
+#character-name {
+  margin-left: 16px;
+  font-size: 26px;
+  letter-spacing: 2px;
+}
+
+#dialogue-box {
+  flex: 1;
+  background-color: #0c0c0c;
+  border: 3px solid #666;
+  padding: 16px;
+  font-size: 18px;
+  line-height: 1.4;
+}
